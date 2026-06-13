@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Demo website for Dickens Cafe Bar in Dickens Heath, Shirley, Solihull.">
+  <title>Dickens Cafe Bar | Dickens Heath</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://www.google.com">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" aria-label="Primary">
+    <a class="brand" href="#top" aria-label="Dickens Cafe Bar home">
+      <span class="brand-mark">D</span>
+      <span>Dickens Cafe Bar</span>
+    </a>
+    <nav class="nav-links" aria-label="Site sections">
+      <a href="#menu">Menu</a>
+      <a href="#story">Story</a>
+      <a href="#visit">Visit</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" role="img" aria-label="Warm rustic cafe table with coffee and fresh bakes"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Dickens Heath, Solihull</p>
+        <h1 id="hero-title">Dickens Cafe Bar</h1>
+        <p class="hero-line">Independent cafe serving artisan coffee, fresh bakes, and relaxed brunch in Shirley.</p>
+        <div class="hero-actions" aria-label="Primary actions">
+          <a class="button button-primary" href="#menu">
+            <i data-lucide="utensils"></i>
+            <span>View Menu</span>
+          </a>
+          <a class="button button-secondary" href="https://www.google.com/maps/dir/?api=1&destination=36%20Main%20St%2C%20Dickens%20Heath%2C%20Shirley%2C%20Solihull%20B90%201UA" target="_blank" rel="noopener">
+            <i data-lucide="map-pin"></i>
+            <span>Get Directions</span>
+          </a>
+        </div>
+      </div>
+      <aside class="hero-note" aria-label="Today's note">
+        <span>Today</span>
+        <strong>Fresh pastries from 8am</strong>
+      </aside>
+    </section>
+
+    <section class="section intro-strip" aria-label="Cafe highlights">
+      <div class="strip-item">
+        <i data-lucide="coffee"></i>
+        <span>House espresso</span>
+      </div>
+      <div class="strip-item">
+        <i data-lucide="croissant"></i>
+        <span>Fresh bakes</span>
+      </div>
+      <div class="strip-item">
+        <i data-lucide="wifi"></i>
+        <span>Quiet corners</span>
+      </div>
+      <div class="strip-item">
+        <i data-lucide="shopping-bag"></i>
+        <span>Takeaway available</span>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="menu" aria-labelledby="menu-title">
+      <div class="section-heading">
+        <p class="eyebrow">Menu</p>
+        <h2 id="menu-title">Coffee, brunch, and bakes without the fuss.</h2>
+        <p>Clear favourites for morning commuters, quiet catch-ups, and weekend brunch.</p>
+      </div>
+
+      <div class="menu-layout">
+        <article class="menu-card featured">
+          <div class="menu-card-head">
+            <h3>Coffee</h3>
+            <span>Best sellers</span>
+          </div>
+          <ul class="menu-list">
+            <li>
+              <div>
+                <strong>Flat White</strong>
+                <p>Double espresso with silky steamed milk.</p>
+              </div>
+              <span>£3.40</span>
+            </li>
+            <li>
+              <div>
+                <strong>Cappuccino</strong>
+                <p>Rich espresso, foam, and cocoa dusting.</p>
+              </div>
+              <span>£3.50</span>
+            </li>
+            <li>
+              <div>
+                <strong>Latte</strong>
+                <p>Smooth, mellow, and easy-drinking.</p>
+              </div>
+              <span>£3.60</span>
+            </li>
+            <li>
+              <div>
+                <strong>Americano</strong>
+                <p>House espresso topped with hot water.</p>
+              </div>
+              <span>£3.00</span>
+            </li>
+          </ul>
+        </article>
+
+        <article class="menu-card">
+          <div class="menu-card-head">
+            <h3>Breakfast</h3>
+          </div>
+          <ul class="menu-list">
+            <li>
+              <div>
+                <strong>Sourdough Toast</strong>
+                <p>Butter, jam, or marmalade.</p>
+              </div>
+              <span>£3.95</span>
+            </li>
+            <li>
+              <div>
+                <strong>Avocado & Eggs</strong>
+                <p>Poached eggs, chilli, toasted seeds.</p>
+              </div>
+              <span>£8.95</span>
+            </li>
+            <li>
+              <div>
+                <strong>Breakfast Ciabatta</strong>
+                <p>Bacon, egg, sausage, or veggie option.</p>
+              </div>
+              <span>£7.50</span>
+            </li>
+          </ul>
+        </article>
+
+        <article class="menu-card">
+          <div class="menu-card-head">
+            <h3>Lunch</h3>
+          </div>
+          <ul class="menu-list">
+            <li>
+              <div>
+                <strong>Chicken Pesto Melt</strong>
+                <p>Toasted ciabatta with salad garnish.</p>
+              </div>
+              <span>£8.75</span>
+            </li>
+            <li>
+              <div>
+                <strong>Soup & Sourdough</strong>
+                <p>Seasonal soup with warm bread.</p>
+              </div>
+              <span>£6.95</span>
+            </li>
+            <li>
+              <div>
+                <strong>Goat's Cheese Salad</strong>
+                <p>Leaves, beetroot, walnuts, balsamic.</p>
+              </div>
+              <span>£9.25</span>
+            </li>
+          </ul>
+        </article>
+
+        <article class="menu-card">
+          <div class="menu-card-head">
+            <h3>Pastries & Cake</h3>
+            <span>Fresh daily</span>
+          </div>
+          <ul class="menu-list">
+            <li>
+              <div>
+                <strong>Butter Croissant</strong>
+                <p>Flaky, warm, simple.</p>
+              </div>
+              <span>£2.95</span>
+            </li>
+            <li>
+              <div>
+                <strong>Cinnamon Bun</strong>
+                <p>Soft dough, cinnamon sugar glaze.</p>
+              </div>
+              <span>£3.25</span>
+            </li>
+            <li>
+              <div>
+                <strong>Victoria Sponge</strong>
+                <p>Jam, cream, classic sponge.</p>
+              </div>
+              <span>£4.25</span>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="story-section" id="story" aria-labelledby="story-title">
+      <div class="story-image" role="img" aria-label="Rustic cafe interior with wooden tables and soft window light"></div>
+      <div class="story-copy">
+        <p class="eyebrow">Our Story</p>
+        <h2 id="story-title">A quiet local spot for good coffee and unhurried conversation.</h2>
+        <p>Dickens Cafe Bar is imagined here as a neighbourhood cafe run by a small local team who care about simple food, warm service, and the rhythm of Dickens Heath life.</p>
+        <p>The demo story focuses on fresh bakes, carefully made coffee, and a calm rustic atmosphere that suits morning regulars, laptop catch-ups, and relaxed weekend brunch.</p>
+        <div class="story-points">
+          <span>Locally minded</span>
+          <span>Fresh daily bakes</span>
+          <span>Independent feel</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section visit-section" id="visit" aria-labelledby="visit-title">
+      <div class="section-heading">
+        <p class="eyebrow">Opening Hours & Location</p>
+        <h2 id="visit-title">Find us on Main Street in Dickens Heath.</h2>
+        <p>Example hours for the demo. These can be updated before the site goes live.</p>
+      </div>
+
+      <div class="visit-grid">
+        <div class="hours-panel">
+          <h3>Opening Hours</h3>
+          <dl class="hours-list">
+            <div>
+              <dt>Monday</dt>
+              <dd>8:00am - 4:00pm</dd>
+            </div>
+            <div>
+              <dt>Tuesday</dt>
+              <dd>8:00am - 4:00pm</dd>
+            </div>
+            <div>
+              <dt>Wednesday</dt>
+              <dd>8:00am - 4:00pm</dd>
+            </div>
+            <div>
+              <dt>Thursday</dt>
+              <dd>8:00am - 4:00pm</dd>
+            </div>
+            <div>
+              <dt>Friday</dt>
+              <dd>8:00am - 5:00pm</dd>
+            </div>
+            <div>
+              <dt>Saturday</dt>
+              <dd>9:00am - 5:00pm</dd>
+            </div>
+            <div>
+              <dt>Sunday</dt>
+              <dd>9:00am - 3:00pm</dd>
+            </div>
+          </dl>
+          <p class="busy-note"><strong>Best time for a quiet table:</strong> weekday mornings before 10:30am.</p>
+        </div>
+
+        <div class="location-panel">
+          <h3>Address</h3>
+          <address>36 Main St, Dickens Heath, Shirley, Solihull B90 1UA</address>
+          <a class="button button-primary" href="https://www.google.com/maps/dir/?api=1&destination=36%20Main%20St%2C%20Dickens%20Heath%2C%20Shirley%2C%20Solihull%20B90%201UA" target="_blank" rel="noopener">
+            <i data-lucide="navigation"></i>
+            <span>Get Directions</span>
+          </a>
+          <div class="map-frame" aria-label="Google map showing Dickens Cafe Bar location">
+            <iframe
+              title="Map to Dickens Cafe Bar"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=36%20Main%20St%2C%20Dickens%20Heath%2C%20Shirley%2C%20Solihull%20B90%201UA&output=embed">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Dickens Cafe Bar</strong>
+      <span>Demo website concept for a warm, rustic local cafe.</span>
+    </div>
+    <a href="#top" aria-label="Back to top">
+      <i data-lucide="arrow-up"></i>
+    </a>
+  </footer>
+</body>
+</html>
